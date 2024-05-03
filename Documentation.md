@@ -39,7 +39,8 @@ Gemini Notes is a simple application to maintain your tasks and create your day-
 
 ## Design Diagrams
 - Data Flow diagram Diagram
-  ![vista](https://github.com/JatuFaique/vista-v1/assets/52850100/3755f76c-26f8-4506-8edb-ac2d385cfa93)
+<img width="655" alt="image" src="https://github.com/JatuFaique/vista-v1/assets/52850100/6980ec48-4665-433b-ba8e-bd1ca11ad2cf">
+
 
 
 ## Design and Development Choices
