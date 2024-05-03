@@ -59,6 +59,11 @@ Gemini Notes is a simple application to maintain your tasks and create your day-
 - Task title, Description, and Category Are Mandatory Fields.
 - Validation for Text Field and Description are maintained.
 
+### Screenshots
+<img width="579" alt="image" src="https://github.com/JatuFaique/vista-v1/assets/52850100/a2bf3a65-3a5e-4435-b5b0-02759c4aedd9">
+<img width="1512" alt="image" src="https://github.com/JatuFaique/vista-v1/assets/52850100/0a9de5e7-446a-4d1c-a926-f39a26b25ae7">
+
+
 ## Additional Enhancements for the future
 - Adding Encryption and Decryption logic for local storage data.
 - Alternate data storage ex. External Database for consuming over the network.
