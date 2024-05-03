@@ -8,12 +8,10 @@ import { DialogTrigger } from "@radix-ui/react-dialog";
 import { Dialog } from "@/components/ui/dialog";
 
 export default function Home() {
-    const [isOpen, setIsOpen] = useState(false);
     const toggleModal = useGeminiStore((state) => state.toggleModal);
-    const modalVisible = useGeminiStore((state) => state.modalVisible);
     return (
         <main className="flex h-auto flex-col">
-            <div className="pt-24 flex flex-col justify-start items-start pl-24 pb-12">
+            <div className="pt-24 flex flex-col justify-start items-start pl-0 pb-12  sm:pl-24">
                 <h1 className="scroll-m-20 mb-4 text-4xl font-extrabold tracking-tight lg:text-5xl">
                     The Gemini Task Chronicles
                 </h1>
