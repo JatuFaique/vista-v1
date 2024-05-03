@@ -4,22 +4,8 @@ import { useGeminiStore } from "@/lib/store";
 import { useEffect, useState } from "react";
 import NewTodoDialog from "../component/Dialoge";
 import TaskBoard from "@/component/TaskBoard";
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-} from "../components/ui/select";
 import { DialogTrigger } from "@radix-ui/react-dialog";
 import { Dialog } from "@/components/ui/dialog";
-// Store Persist Timeout
-// Optimization -> Lazy Load Implement
-// Assume API response in future
-// State Diagram
-// Keyboard Acessibility
-// Mobile Width Scroller
-// Expiry
 
 export default function Home() {
     const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +14,7 @@ export default function Home() {
     return (
         <main className="flex h-auto flex-col">
             <div className="pt-24 flex flex-col justify-start items-start pl-24 pb-12">
-                <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+                <h1 className="scroll-m-20 mb-4 text-4xl font-extrabold tracking-tight lg:text-5xl">
                     The Gemini Task Chronicles
                 </h1>
                 <Dialog>
